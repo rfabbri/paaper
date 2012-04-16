@@ -1,0 +1,106 @@
+%\documentclass[letterpaper,peerreview,12pt,compsoc,draftcls]{IEEEtran}
+%\documentclass[10pt,twocolumn,letterpaper]{article}
+\documentclass[letterpaper]{article}
+
+%
+% Final Checklist TODO XXX 
+% - Spellcheck
+% - check xxx's todo's etc
+%
+%\input{preamble}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage[tight,footnotesize]{subfigure}
+\usepackage{color}
+\usepackage{verbatim}
+\usepackage[pagebackref=true,breaklinks=true,letterpaper=true,colorlinks,bookmarks=false]{hyperref}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You have two versions of the macro
+% \draftnote{My note}. The first version puts notes (e.g. My note in the example)
+% into the margin of your document. The second formats the note as nothing. You
+% 'comment out' the version of the macro you don't want (using a % at the
+% beginning of the line).
+%\newcommand{\draftnote}[1]{\marginpar{\tiny\raggedright\textsf{\hspace{0pt}#1}}}
+\newcommand{\draftnote}[1]{\marginpar{\tiny\raggedright\textsf{\hspace{0pt}#1}}}
+%\newcommand{\draftnote}[1]{}
+
+% This one is just for the comments for in-line text.
+\newcommand{\indraftnote}[1]{\textcolor{blue}{\texttt{\footnotesize[#1]}}}
+\newcommand{\todo}[1]{\indraftnote{todo: #1}}
+%\newcommand{\indraftnote}[1]{}
+
+
+\begin{document}
+\input{front-matter}
+
+\section{Introduction}
+
+One of the defining features of modern times is the widening geographical
+distribution of software teams~\cite{}. One example is the free software
+movement. \todo{citar alguns exemplos}.
+
+However, we have noticed how difficult it is to coordinate and fund free
+software on a larger scale than currently available, when teams are very
+heterogeneous containing not only volutaries and very experienced developers,
+but also contractors from different backgrounds and cultures.
+
+Another problem faced by modern software companies and other collectives are frequent
+ineffective meetings, which are seldom focused to the interest to any
+attendant. The result is that it has become the norm to participate in too many
+meetings with the laptop open, which is very unproductive at the very least.
+Coders like to code, to be productive, to have their hands-on their project to
+do what they're best at. They hate to have to stop for too many meetings,
+and they hate to have to write lengthy reports to justify their funding.
+\todo{ler mais. cacm, etc}
+
+AA is a methodology and an associated software system for coordinating
+distributed teamwork.  Team members take on an egalitarian role, and stay
+voluntarily logged in the system for part of their time (e.g., 2h/day), during
+which they microblog periodical "tweets" about their activity. These microblog
+logs are publicly aggregated and are validated by their own peers. Through AA,
+we have a methodology and an associated system to validate and enable the
+activities of a distributed software team. It implicitly legitimizes financing
+the expansions of the team's activity. The AA methodology is specially useful
+for coordinating distributed and decentralized teamwork, providing effective
+means to asyncrhonously update different team members without the need for
+syncrhonous unproductive meetings.
+
+Figure~\ref{fig:mm} summarizes our methodology.
+
+
+\begin{figure}
+\begin{center}
+   \includegraphics[width=0.8\linewidth,keepaspectratio=true]{figs/aa-mm.png}
+\end{center}
+   \caption{
+   Mindmap of our methodology
+   }
+\label{fig:mm}
+\end{figure}
+
+\todo{alerts work for greater consciousness of time}
+
+\section{Related Work}
+\todo{survey other methodologies such as agile etc}
+
+\section{The AA Methodology}
+
+\section{The AA Methodology}
+
+\section{Conclusion}
+
+%\section*{Acknowledgments}
+%The authors would like to thank NSF and CNPq.
+
+%{\small
+%\input{paper-draft.bbl}
+%%%%\bibliographystyle{splncs}
+% this is a good style for drafting
+%\bibliographystyle{abstract}
+% this is a good style for finals
+\bibliographystyle{acm}
+\bibliography{personal}
+%}
+
+\end{document}
