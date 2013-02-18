@@ -1,6 +1,6 @@
 %\documentclass[letterpaper,peerreview,12pt,compsoc,draftcls]{IEEEtran}
 %\documentclass[10pt,twocolumn,letterpaper]{article}
-\documentclass[letterpaper]{article}
+\documentclass{article}
 
 %
 % Final Checklist TODO XXX 
@@ -15,6 +15,7 @@
 \usepackage{verbatim}
 \usepackage{multirow}
 \usepackage[pagebackref=true,breaklinks=true,letterpaper=true,colorlinks,bookmarks=false]{hyperref}
+%\usepackage{draftwatermark}
 
 \newcommand{\ie}{{\it i.e.}}
 \newcommand{\etc}{{\it etc}}
@@ -29,13 +30,13 @@
 % 'comment out' the version of the macro you don't want (using a % at the
 % beginning of the line).
 %\newcommand{\draftnote}[1]{\marginpar{\tiny\raggedright\textsf{\hspace{0pt}#1}}}
-\newcommand{\draftnote}[1]{\marginpar{\tiny\raggedright\textsf{\hspace{0pt}#1}}}
-%\newcommand{\draftnote}[1]{}
+%\newcommand{\draftnote}[1]{\marginpar{\tiny\raggedright\textsf{\hspace{0pt}#1}}}
+\newcommand{\draftnote}[1]{}
 
 % This one is just for the comments for in-line text.
-\newcommand{\indraftnote}[1]{\textcolor{blue}{\texttt{\footnotesize[#1]}}}
+%\newcommand{\indraftnote}[1]{\textcolor{blue}{\texttt{\footnotesize[#1]}}}
+\newcommand{\indraftnote}[1]{}
 \newcommand{\todo}[1]{\indraftnote{todo: #1}}
-%\newcommand{\indraftnote}[1]{}
 
 
 \begin{document}
@@ -79,7 +80,7 @@ open'', which can be un-productive. Software developers
 like to code, to be productive, to have their hands on their project,
 to do what they are best at. They dislike to forcibly stop for meetings
 or to do other bureaucratic activities such as writing lengthy reports to
-justify their funding.~\cite{Thompson:Wired:2012}
+justify their funding.\cite{Thompson:Wired:2012}
 %\todo{ler mais. cacm, etc}
 
 In this paper we propose the AA methodology and an associated software system
@@ -240,7 +241,7 @@ offline micrologging and periodical alerting.
 Developers optionally record a \emph{video screencast} at the end of the
 session summarizing what has been done, explaining with his words and
 showing his most important results. This is very similar to the video logging system
-in the movie Avatar~\cite{Avatar}, although it is proved from our July 2011 git repositories and online
+in the movie Avatar, although it is proved from our July 2011 git repositories and online
 wiki that we have used this powerful concept in AA prior to the release of
 Avatar. Moreover, screencasting differs from general videologging in that it
 typically captures actual workflow on
