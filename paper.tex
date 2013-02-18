@@ -81,7 +81,7 @@ for coordinating distributed team work, tackling the disadvantages
 of GSD. Team members take on an egalitarian role, and stay
 voluntarily \textit{logged} in the system for part of their time
 (e.g.\ 2 hours per day), during which they log a periodical short text
-sentence or microlog --- similar to a ``tweet'' from Twitter --- as the
+sentence or \emph{microlog} --- similar to a `tweet' from Twitter --- as the
 status of their activity. Logging is carried out using an easy a series of
 available UI's: unix shell
 commands, native GUI or web page, conventional social network posts, or chat messages to a log bot
@@ -222,21 +222,25 @@ From the developer's perspective, the AA methodology is based on
 creating pretty small high perspective reports of what they are doing
 in a specific time frame, that can be something between 5 to 15
 minutes, depending on what is most convenient for the developer and the team. An
-AA Session would be a period of at least 2 hours doing these periodical
-micrologs. The developer can set reminders to show up when its time to
-make a new report. The objective of the flexible time frame and
-reminders is to minimize developer overhead during his AA session. In
-this way he can make the reports while staying concentrated in his
-code. Each report can be sent directly to an on-line server, or stored
-locally in a temporarily database for sending later. This make
-possible the use of AA while offline.
+\emph{AA Session} would be a period of at least 2 hours doing these periodical
+\emph{micrologs} also called \emph{AA posts}. The developer can set reminders or alerts to show up when its time to
+\emph{microlog}. The objective of the flexible time frame and
+alert scheme is to \emph{minimize developer overhead} during his AA session. In
+this way, the developer can issue micrologs while staying maximally concentrated in his
+code. Each microlog may be sent directly to an on-line server, or stored
+locally in a temporarily database for sending/pushing later. This enables
+offline micrologging and periodical alerting.
 
-Developers can also record a video screencast in the end of the
+Developers optionally record a \emph{video screencast} at the end of the
 session summarizing what has been done, explaining with his words and
-showing his most important results. This, combined with the textual
-log of his session, makes the whole report more understandable for
-himself or other people searching for information about his
-production.
+showing his most important results. This is very similar to the video logging system
+in the movie Avatar~\cite{Avatar}, although it is proved from our July 2011 git repositories and online
+wiki that we have used this powerful concept in AA prior to the release of
+Avatar. Moreover, screencasting differs from general videologging in that it
+typically captures actual workflow on
+the computer screen. Screencasting, combined with the textual log of the AA
+Session, renders the final report more understandable for the individual developer himself
+or to other people searching for information about his production.
 
 \subsection{AA Website Report}
 
@@ -248,22 +252,21 @@ production.
 \label{fig:aaserver}
 \end{figure}
 
-All AA reports made by the developers are sent to a Web server and
-become public in a Website, being possible then for a manager or
-another developer to follow very closely the work of a developer,
-nearly real-time, reading each of his small reports of what he is
-doing right now.
+All AA reports made by the developers are ultimatelly sent to a Web server and
+become publically aggregated on a Website, enabling a manager or another
+developer to follow very closely the work of a given developer, nearly real-time,
+reading each of his small reports or micrologs of what he is doing right now.
 
-Another possibility is to check older sessions to see when sometimes
-was done and the comments of the developer about it, since each AA
-post happens in a very small time frame of work, the information about
-what was done become very easy to understand, instead of a long
-report in the end of a session.
+Another use case is to check older sessions to check when certain tasks
+were carried out and the comments of the developer about the \emph{process}.
+Since each AA microlog happens in a very short timeframe of work, the information
+about what was was done -- specially \emph{how} it was done -- becomes very easy to
+understand, instead of a long report in the end of a session.
 
-The site is where the developer can add to his session a link for his
-screencast about that session, a video summary of what was done to
-complement the reports, useful specially on cases where the small
-reports were done in a hurry, because the developer did not want to
+IN the current version of the AA server infrastructure, the aggregating
+website is where the developer can attach a link for his
+screencast about each session. Screencasts are specially useful on cases where
+the small reports were done in a hurry, because the developer did not want to
 lose his focus on something important at that moment.
 
 \subsection{Validation}
