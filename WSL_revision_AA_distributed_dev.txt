@@ -1,0 +1,51 @@
+REVIEW0:
+
+The paper introduces a methodology to be applied to GSD and distributed software development environments.
+
+All in all, the contribution is very promising. It includes a methodology and a (free software) tool that has been already tested. The part that is missing to be a complete study is an evaluation of the tool; I encourage the authors to perform it to further this research.
+
+I would recommend the authors to change the title. As by now it seems like a typo with the "AA". A better one would be "The AA Distributed Software Develompent Methodology" or even better "The Algoritmic Auto-regulation Software Development Methodology".
+
+I have a bunch of questions after reading the paper:
+
+* It is not clear to me why the methodology has only to be followed during two hours and not during the complete working session. 
+
+* How is the review performed? Do developers get a bunch of status messages from their peers at once every day or every once and then?
+
+I don't understand what Tables 1 and 2 add to the paper. Yes, the development team is very experienced... but what does this add to AA?
+
+The conclusion is sometimes repetitive and could be shortened.
+
+Regarding footnotes: Footnotes belong just after the last word; don't leave a space before a footnote and don't put a colon in between.
+
+The English needs some polishing, especially have a look at the "to" and "on", etc.
+
+
+
+REVIEW1:
+
+This is an interesting paper about the AA methodology and its application to several Global Software Development Projects.  The methodology is supported by experience reporting, which can be viewed on the Web.  This reviewer likes the demonstration of the idea in addition to the idea itself.  
+
+Section 2 on related work could be strengthened.  It devotes too much space to the GSD concept, and only cites three other methodologies for distributed development.  
+
+In a future version of the paper, it would be useful to see some comparisons between the use of AA and the approaches used by some large FOSS projects.  Does AA help new project members learn the code more quickly?  Can existing team members find problems in the code by reviewing the material submitted by a team member?  Does AA impose a significant overhead cost for each developer on the project, both on creating his own logs and on reviewing the material created by his teammates?  This evaluation process would be highly valuable.
+
+Unfortunately, the writing needs a lot of English language editing to make it suitable for final publication.  In its current form, the paper could be used for workshop discussion, but it can't be published more widely without improving the quality of the writing, inserting the references, and correcting GCD to GSD, among other things.
+
+If the PC can help the authors with their writing, then I would like to see this paper be accepted.
+
+
+
+REVIEW2:
+
+The article presents a methodology, called AA, for coordinating distributed team work. My recommendation for this article was mildly rejected due to the following problems:
+ 
+* The article does not make it clear how the AA methodology can help a free software community that alreaady uses a bugtracker system + mail lists + IRC + version control.
+
+* Table 1 lists applications and commiters. From this table it is not possible to infer the quality of the contributions or how the AA methodology have influenced the processes. 
+
+* Table 2 lists projects created by Lab Macambira. There is no evidence that these projects have used the AA methodology.
+
+* The bibliography contains only 9 references and most of them are outdated.
+
+
