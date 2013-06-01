@@ -98,17 +98,7 @@ now. Finally, in Section~\ref{conclusions}, there are final conclusions and
 indicatives of future possibilities to the practical use of AA on other teams of
 software developers or individuals working on non-software activities.
 
-\indraftnote{
-A very good article on the value of asynchronous communication for personal
-and group productivity, related to the key necessity of having moments of
-introversion to avoid daily pressures of forced socialization. The way we work
-on the digital age enables people to be very productive, the article also
-mentions Linux as a hallmark example~\cite{Thompson:Wired:2012}
-}
-
-\indraftnote{TODO: cite CIA.vc bot stuff}
-
-\section{Related Work}
+\section{Related work}
 \label{related-work}
 
 %% aqui tomei como ponto de vista as metodologias associadas a GSD
@@ -118,36 +108,36 @@ mentions Linux as a hallmark example~\cite{Thompson:Wired:2012}
 %\todo{survey other methodologies such as agile etc}
 %\todo{probably a good source http://agilemanifesto.org/}
 
-There has been a large amount of research done in the area of methodologies to
-deal with distributed teams of developers. We are focusing in GSD here, however
+There has been a large amount of research in methodologies to
+deal with distributed teams of developers. Although this article focuses in GSD,
 some principles involved on those methodologies could be used on smaller teams
-of developers working in the same place, time and with minor cultural
-differences. Moreover we generally think on ``distributed development'' being
-global which is not totally true. We even applied AA to a team that work at the
+of developers working in the same place, time period and with minor cultural
+differences. Moreover, ``distributed development'' is generally tough as being
+global which is not true. AA was applyed to a team that work at the
 same city but on different times (more details on Section~\ref{results}). Even
 smaller groups of developers working on the same building could use GSD
 methodologies. A thorough survey of these methodologies is beyond the scope of
-this paper. Here we present a brief overview.
+this paper. This section presents a brief overview.
 
 Various methodologies for GSD were built around the factors that affect
-distributed team works, proposed by Carmel~\cite{carmel1999} and comprising
+distributed team works. As proposed by Carmel~\cite{carmel1999}, these comprises
 three distances: geographical, cultural and temporal. Geographical distance
 prejudice \emph{coordination}, being the act of integrating all the tasks
 distributed between units~\cite{carmel2001}; \emph{control}, or the process to
 maintain specific goals, policies or quality levels; and
-\emph{communication}. All these factors are correlated, for example, a team need
-to have clearly communication to work on tasks of a specific problem. Cultural
+\emph{communication}. All these factors are correlated, for example, a team needs
+to have good communication to work on tasks related to a specific problem. Cultural
 distance encompass differences on organizational and natural culture. Spoken
 language, unit and ethnic values are common forms of this distance. Some
 companies prefer to situate development units in foreign locations with minimal
 cultural distance (e.g.\ an American firm prefer Ireland, because of spoken
-language similarity~\cite{carmel2001}). And finally the temporal distance that
-prejudices synchronous communications like telephone or video-conferences. Units
-of developers working on different time-zones are concerned with managing of
+language similarity~\cite{carmel2001}). Finally, the temporal distance
+prejudices synchronous communications like telephone or video-conferences.
+Developers working on different time-zones manage
 their agenda guided by this temporal distance.
 
 Targeting geographical distance, Carmel~\cite{carmel2001} suggests a tactic to
-reduce intensive collaboration. His approach divides the whole software
+enhance intensive collaboration. His approach divides the whole software
 life-cycle on levels of complexity. Each level has a degree of
 collaboration. For example, some developers working on a project with high
 collaboration level should use the follow-the-sun approach: when concluding the
@@ -155,118 +145,113 @@ work day, they pass their work to the team working on another time-zone. Other
 tactics are suggested by the same author to deal with the three distances, like
 separating foreign units of developers in time-zone bands.
 
-Battin et al.~\cite{battin2001} propose and argues about their experiments using
-specific methodologies created for the distributed development centers of the
+Battin et al.~\cite{battin2001} argues about their experiments using
+methodologies created for the development centers of the
 Motorola Company (which has over 25 software development centers
 worldwide). These methodologies included constant communication with critical
-units, incremental integration and scheduled based on time-zones distributed to
+units, incremental integration and schedules based on time-zones distributed to
 developers on 6 countries from 3 continents.
 
-While considering free software projects instead of companies, the same factors
+While considering free software projects instead of companies, similar factors
 are present and some methodologies arises. German~\cite{german2003} gives a
 concise review of methodologies used by the GNOME project, one of the most
 active free software projects and used by companies like Sun Microsystems. It is
-interesting to note a difference on viewpoint present on his paper: German
+interesting to note a difference on the viewpoint present on his paper: German
 focuses the methodology description on code. He start explaining that GNOME is
 separated into modules (76 on version 2.4, to be precise) and each module has
 one maintainer who divide his modules into separated parts in which other
 developers can work on independent tasks, along other responsibilities. As like
 others free software projects, all the development was done using a
 \emph{bugtracker} to bugs and issues management, mail lists and Internet Relay
-Chat (IRC) to discussion and communication and a software configuration
-management like SVN or Git. Periodical (commonly yearly) conferences like GUADEC
-is common on free and open source projects to face-to-face meeting and is based
+Chat (IRC) to discussion and communication and a software version
+management like SVN or Git. He finishes by observing that periodical, e.g. yearly, conferences like GUADEC
+is common on free and open source projects for face-to-face meetings and is based
 each time on a different place.
 
-\section{The AA Methodology}
+\section{The AA methodology}
 \label{aa-methodology}
 
 As noted, some strategies for GSD is based on complex methodologies and many of
-those were built for a specific company or software center. Here we propose an
-alternative methodology based on a simple idea: small working sessions logged by
-a computational tool. Figure~\ref{fig:mm} summarizes our methodology.
+those were built for a specific company or software center. This section proposes an
+alternative based on a simple idea: small working sessions logged by
+a computational tool. Figure~\ref{fig:mm} summarizes this methodology.
 
 \begin{figure}
 \begin{center}
-   \includegraphics[width=0.8\linewidth,keepaspectratio=true]{figs/aa-mm.png}
+   \includegraphics[width=0.8\linewidth,keepaspectratio=true]{figs/aa-mm2.png}
 \end{center}
    \caption{
-   Mindmap of our methodology
+   Mindmap of AA methodology: 1) developer engagement cycle, i.e. his use of AA; 2) functionality as main goals of the system; 3) potentialities as enhancements AA delivers to the developer's medium. 
    }
 \label{fig:mm}
 \end{figure}
 
-\subsection{AA Session}
+\subsection{The AA session}
 
-From the developer perspective, the AA methodology is based on creating pretty
-small high perspective reports of what they are doing in a specific time frame,
-that can be something between 5 to 15 minutes, depending in what is more
-comfortable for the developer. An AA Session would be a period of at least 2
-hours doing these reports. The developer can set reminders to show up when its
+From a developer's perspective, the AA methodology is based on creating
+small, high perspective, reports of what is being done in a specific time frame. This frame
+can be something between 5 to 15 minutes, depending on what is 
+comfortable for the developer. An AA Session is a period of about 2
+hours, in which these short reports (called ``shouts'') are periodically written. The developer can set reminders to show up when it is
 time to make a new report. The objective of the flexible time frame and
-reminders is to minimize developer overhead during his AA session. In this way
-he can make the reports while staying concentrated in his code. Each report can
-be sent directly to an on-line server, or stored locally in a temporarily
-database for sending later. This make possible the use of AA while offline.
+reminders is to minimize developer overhead during his AA session. In this way,
+he can make the reports with little or no loss of concentration on his coding activity. Each report can
+be sent directly to an online server, or stored locally in a temporary
+database for sending later on. This makes it possible to use AA while offline.
 
-Developers can also record a video screencast in the end of the session
-summarizing what has been done, explaining with his words and showing his most
+Developers can also record a video screencast at the end of the session,
+summarizing what has been done, explaining with his words and showing on the screen his most
 important results. This, combined with the textual log of his session, makes the
-whole report more understandable for himself or other people searching for
+whole report more significant as documentation and understandable for himself or other people searching for
 information about his production.
 
-\subsection{AA Website Report}
+\subsection{The AA website report}
 
 \begin{figure}
 \begin{center}
-   \includegraphics[width=0.95\linewidth]{figs/aa-0_1.png}
+   \includegraphics[width=0.95\linewidth]{figs/aa-0_1_.png}
 \end{center}
-   \caption{AA Version 0.1}
+   \caption{AA Version 0.1. Messages of users: hybrid, filter0, v1z e aut0mata about activities of interest for labMacambira.sf.net and other parties (IPRJ/UERJ, IFT/UNESP, IFSC/USP, OPW/Mozilla, PulaPirataComics). Each message is a ``shout'', which, grouped, forms an AA session.}
 \label{fig:aaserver}
 \end{figure}
 
 All AA reports made by the developers are sent to a Web server and become public
-in a Website, being possible then for a manager or another developer to follow
-very closely the work of a developer, nearly real-time, reading each of his
-small reports of what he is doing right now.
+in a Website. It is then possible for a manager or another developer to follow
+closely the work of a developer, nearly real-time, reading each of his
+small reports of what he is doing.
 
-Another possibility is to check older sessions to see when sometimes was done
-and the comments of the developer about it, since each AA post happens in a very
-small time frame of work, the information about what was done become very easy
-to understand, instead of a long report in the end of a session.
+Another possibility is to check older sessions to see what was done
+and the comments of the developer about it. Since each AA post (or ``shout'') happens in a
+small time frame of work, the information about what was done becomes easy
+to understand, which seems better than a long report in the end of a session.
 
-The site is where the developer can add to his session a link for his screencast
-about that session, a video summary of what was done to complement the reports,
-useful specially on cases where the small reports were done in a hurry, because
-the developer did not want to lose his focus on something important at that
-moment.
+The developer can add to his session a link for his screencast
+about that session. This screencast is a video summary of what was done and complements the report.
 
 \subsection{Validation}
-
-Each AA session must be validated by another developer, it means that all
-reports are read by someone that will consider then valid or not and will even
-write commentaries about the specific session. The developer in charge of
-validating a session is decided randomly by the AA Web server, which send an
-email to the chosen developer with an URL to a validation interface.
+Each AA session must be validated by another developer. This means that all
+reports are read by someone that will consider valid or not and will even
+write comments about the specific session. The developer in charge of
+validating a session is decided randomly by the AA Web server, which sends an
+email to the chosen developer with the URL to a validation interface.
 
 % TODO: adicionar figura aa cliente (ou tabela com os principais comandos)
 % TODO: adicionar figura com arquitetura do AA cliente + AA web + validação
-% TODO: melhorar screenshot do AA web
+% TODO: adicionar figura do pAAinel
 
-\section{Results and Discussion}
+\section{Results and discussion}
 \label{results}
 
 The easy and effective management of teams working on GSD is the main purpose of
-the AA methodology. We applied this methodology to a group of 9 developers in
-July of 2011 on what we called Lab Macambira~\footnote{LabMacambira.sf.net:
+the AA methodology. This methodology was applied to a group of 9 developers in the second half of 2011 on what was named ``Lab Macambira''\footnote{LabMacambira.sf.net:
   \url{http://labmacambira.sf.net}}. The main objective of the team was to work
 on different free software projects, contributing directly to their development,
 sending bug corrections or proposing new features on their source code.
 
-All the team members had different levels of knowledge on software development
-as part of large and distributed free software projects like Scilab or
-Mozilla. In this way, one month of training was conducted by two experienced
-developers, teaching the basics of use of development support tools like
+Team members earned knowledge on software development
+as part of large and distributed free software projects like Scilab and  
+Mozilla. In this way, one month of training was conducted by three experienced
+developers, teaching the basics of development support tools like
 bugtrackers, programming languages and version control systems. After this
 period, a challenge was proposed for the new developers: send a bug correction
 or a new feature to a large free software project and you will work with us, you
@@ -277,11 +262,12 @@ the contributions of each ``Macambira'' to free software projects.
 
 \begin{table}
   \caption{Free and open software projects that received contributions
-    from ``Macambiras''. On the first column we can see a list of
-    applications of those projects. At right, the pseudonym of the
+    from ``Macambiras''. On the first column there is a list of
+    applications. At right, the pseudonym of the
     ``Macambiras'' who sent \textit{commits} to the application. At
     ``Lab Macambira'', and at free software community in general, is a
-    common practice to use pseudonym as identification.}
+    common practice to use a pseudonym as identification.}
+    \begin{center}
     \small\begin{tabular}{|l|l|}
         \hline
         Application           & ``Commiters''                       \\
@@ -310,32 +296,33 @@ the contributions of each ``Macambira'' to free software projects.
         Audiolet              & automata                            \\
         Extempore             & automata                            \\
         \hline
-    \end{tabular}
+\end{tabular}
+\end{center}
     \label{tabela:contribuicoes}
 \end{table}
 
-In one month, each developer contributed to many very large free software
-projects. Many of the developers started the training with no knowledge of what
+In one month, ``Macambira'' developers contributed to many large free software
+projects. Some of the developers started the training with no knowledge of what
 is free software and ended that period becoming a free software developer.
 
 During that month, the same team developed the first version of the AA system
-and used AA to manage their activities. Even while developing the system. All
+and used AA to manage their activities, even while developing the system. All
 the source code of AA --- the client that sends the logs and the AA Web server
---- is public available~\footnote{AA source code:
+--- is publicly available\footnote{AA source code:
   \url{http://labmacambira.git.sourceforge.net/git/gitweb.cgi?p=labmacambira/aa}}
-and all the AA sessions log of the whole team of ``Lab Macambira'' is also
-on-line~\footnote{Logs of AA sessions:
+and all the AA session logs of the ``Lab Macambira'' team is also
+online\footnote{Logs of AA sessions:
   \url{http://labmacambira.git.sourceforge.net/git/gitweb.cgi?p=labmacambira/paainel}}.
 
-After the training period, during more 6 months, the ``Macambiras'' worked on a
-large range of free software projects, distributed on work groups --- each work
-group focusing on a specific theme like video, audio and web --- and financed by
-contracts and support of the ``Pont\~{a}o N\'{o}s Digitais''. In
+After the training period, during 6 more months, the ``Macambiras'' worked on a
+large range of free software projects, distributed on work groups. Each work
+group focused on a specific theme like video, audio and web. They were financed by
+contracts and support of the ``Pont\~{a}o de Cultura Digital: N\'{o}s Digitais''. In
 Table~\ref{tabela:criados} we can see a list of the free software created by
 ``Lab Macambira'' since July of 2011.
 
 \begin{table}
-    \caption{Software projects created by ``Lab Macambira'' since July
+    \caption{Software projects, created by ``Lab Macambira'', with the use of AA, since July
       of 2011 with a short description and the technologies --- like
       programming languages or frameworks --- involved. It is
       interesting to note the heterogeneity of projects and its areas
@@ -407,57 +394,56 @@ of the trained developers continue to work voluntarily in the project.
 
 %% brief introduction
 In a scenario where GSD is growing as a popular form of software development,
-not just on free software projects but in the whole software industry, we need
-methodologies to deal with its disadvantages and at the same time to amplify its
+not just on free software projects but in the whole software industry, there is an increased need for
+methodologies to deal with it's disadvantages and at the same time to amplify it's
 advantages.
 
-This paper has presented a methodology to GSD, being the development conducted
+This paper has presented a simple methodology to GSD, being the development conducted
 on large or small groups of software developers, working on different countries
 or even at the same room. The AA methodology implements a simple system where
-each developer take notes of his work generating a periodical log of small text
+each developer takes notes of his work, generating a periodical log of small text
 sentences. The sum of those sentences, along an entire session of work, results
 in a complete report. The report is made public available through a Website and
-be validated by other developers sorted aleatory by the AA Web server.
+are validated by other developers sorted aleatory by the AA Web server.
 
-Instead of a merely work-management tool, AA act as a methodology to improve the
+Instead of a merely work-management tool, AA acts as a methodology to improve the
 time sense of individuals, dividing their work on small sessions, and also
 reducing the need of extensive reports or unnecessary meetings. By asking users
-to write a minimal text sentence as a continuously log, AA does not disturb
-developers concentrated on programming: developers just have to type some
-characters, hit \textit{enter} and go back to coding.
+to write a minimal text sentence as a continuous log, AA minimizes
+disturbances: developers just type some
+characters, hit \textit{enter} and go back to coding, which can help mental organization about the work being done.
 
 AA application is not restricted to software development. As of this writing
-there is a comic book studio~\footnote{Pula pirata: \url{http://pulapirata.com}}
-starting to use AA to manage their activities. People with non-software
-background, like social scientists, musicians and activists has also using AA
+there is a comic book studio\footnote{Pula Pirata Comics: \url{http://pulapirata.com}}
+using AA to manage their activities. People with non-software
+background, like social scientists, musicians and activists has also been using AA
 and contributing for its improvement.
 
-For developer teams, we have experienced the use of AA to auto-regulate the work
+For software developer teams, the use of AA was used successfully to auto-regulate the work
 of ``Lab Macambira'', a group of free software developers from Brazil. Since
 July of 2011 the group have contributed and created new free and open source
 software for a vast number of applications.
 
 There are many aspects of the work which remain unfinished. New ways to report
-logs --- the ``Twitter like'' messages --- from different interfaces like IRC,
+logs --- the ``Twitter like'' messages, sometimes called ``shouts'' --- from different interfaces like IRC,
 Internet Messaging services and email can make the use of AA easy and
 widespread, turning AA an ubiquitous system, presented on everyday communication
-channels. Even the work logs generated since July of 2011 could be vastly
-statistically analyzed aiming to recognize patterns in the behavior of
+channels. Even the work logs generated since July of 2011 could be 
+statistically analyzed to recognize patterns in the behavior of
 individuals and their productions.
 
-We would like to conclude setting an important role of AA: being a free software
-system and an open methodology, AA could be used to auto-manage groups of
-individuals working on software or other kinds of activities. In this way, we
-are interested to spread AA for those groups, to have even more developers
+Being a free software
+system and an open methodology, AA could be used to auto-manage groups
+working on software or other kinds of activities. In this way,
+there is interest on spreading AA to have even more developers
 contributing in a collaborative way.
 
 \section*{Acknowledgments}
 %The authors would like to thank NSF and CNPq.
 
-We would like to also thank AA: the present research and even this manuscript
-was written using AA. The complete log is on-line at
+Authors thank AA: the present research and even this manuscript was written using AA. The complete log is on-line at
 \url{http://www.pulapirata.com/skills/aa}.
-
+Authors are also grateful to IFSC/USP, IPRJ/UERJ, IFT/UNESP and all AA users and collaborators, spacially those who coded AA hacks for shell and bot uses and those who coded the different Web interfaces in current use.
 
 \nocite{last2003}
 \nocite{german2003}
