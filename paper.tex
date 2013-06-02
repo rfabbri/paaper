@@ -320,42 +320,43 @@ fragmentation and is an essential mechanism of decentralized team autoregulation
 \section{Results and discussion}
 \label{results}
 
-Easy and effective GSD team management is the main
-purpose of the AA methodology. We applied the proposed methodology to a group
-of 9 developers in July of 2011 on what we called Lab
+Easy and effective GSD team management is the main purpose of the AA
+methodology. We applied the proposed methodology to a group of 9 developers in
+July of 2011, 3 of which are coauthors of the present work, on what we called Lab
 Macambira.\footnote{LabMacambira.sf.net: \url{http://labmacambira.sf.net}} The
 main objective of the team was to work on an array of strategic free software
-projects in the broad audiovisual and web categories,
-contributing directly to their development, submitting bug patches or
-committing new features to their source code.
+projects in the broad audiovisual and web categories, contributing directly to
+their development, submitting bug patches or committing new features to their
+source code.
 
-The team members had different levels of experience on software
-development for large and distributed free software projects
-like Scilab or Mozilla. In this way, one month of training was
-conducted by two experienced developers, teaching the basics of use of
-development support tools like bugtrackers, programming languages,
-version control systems, and build systems. After this period, a starter project
-was proposed for new developers, namely to have an accepted patch or commit to
-the official repository for a large and widely used free software app.
-Developers passing the starter project would be deemed `initiated' and be
-called a `Macambira' developer.  Table~\ref{tabela:contribuicoes} summarizes the
-effective accepted contributions of each successfully initiated developer to
-free software projects in 2011, which used the AA methodology.
+The team members had different levels of experience on software development for
+large and distributed free software projects like Scilab or Mozilla. In this
+way, one month of training was conducted by three experienced developers (the
+first authors of the present work), teaching
+the basics of use of development infrastructure tools like bugtrackers, programming
+languages, version control systems, and build systems. After this period, a
+starter project was proposed for new developers: to submit a bugfix or implement
+a new feature and have an accepted
+patch or commit to the official repository for a large free
+software project.  Developers passing the starter project would be deemed
+`initiated' and be called a `Macambira' developer, and be hired for the
+remainder of the semester.
+Table~\ref{tabela:contribuicoes} summarizes the effective accepted contributions
+of each successfully initiated developer to free software projects in 2011,
+which used the AA methodology.
 
 %% adicionar tabela de contribuições
 
 \begin{table}
-  \caption{Free and open software projects that received contributions
-    from successfully initiated developers  or `macambiras' that worked under
-    the AA methodology. The first column lists applications to which
-    contributions were officially accepted and whose development process was
-    performed and logged using AA. The second column shows the pseudonym of the
-    ``Macambiras'' who sent \textit{commits} to the application. At
-    Lab Macambira, and at the free software community at large, 
-    It is
-    common practice at Lab Macambira, and the free software community at large,
-    to use pseudonyms as identification in order to enhance privacy in practice.}
-    \begin{tabular}{|l|l|}
+  \caption{Free and open software projects that received contributions from
+  successfully initiated developers  or `Macambiras' that worked under the AA
+  methodology. The first column lists applications to which contributions were
+  officially accepted and whose development process was tracked using AA. The
+  second column shows the pseudonym of the committers. At Lab Macambira it is
+  common practice to use pseudonyms in AA as identification in order to enhance
+  privacy.}
+  \begin{center}
+  \small\begin{tabular}{|l|l|}
         \hline
         Application           & ``Commiters''                       \\
         \hline \hline
@@ -384,6 +385,7 @@ free software projects in 2011, which used the AA methodology.
         Extempore             & automata                            \\
         \hline
     \end{tabular}
+    \end{center}
     \label{tabela:contribuicoes}
 \end{table}
 
@@ -392,9 +394,9 @@ projects. Many developers started the initiation training with no knowledge of w
 is free software and ended that period becoming a free software developer.
 During that month, the same team of trainees also developed the first version of the AA
 system and used AA to manage their activities, even while developing
-the other aforementioned free software projects. 
-
-The source code of AA --- both the client that sends the
+the other aforementioned free software projects. Thus, AA and the associated
+software system was tested, prototyped, and developed in close contact with
+actual practice.  The source code of AA --- both the client that sends the
 logs and the AA Web server --- is public available as free software\footnote{AA source
   code:
   \url{http://labmacambira.git.sourceforge.net/git/gitweb.cgi?p=labmacambira/aa}}
@@ -402,13 +404,13 @@ and all the actual AA log data of the entire team of Lab Macambira from 2011 to
 the present time is also on-line\footnote{Logs of AA sessions:
   \url{http://labmacambira.git.sourceforge.net/git/gitweb.cgi?p=labmacambira/paainel}}.
 
-After the initial training period of 1 month, the ``Macambiras''
-worked during 6 additional months on a large range of free software projects, distributed on work
-groups --- each work group focusing on a specific theme like video,
-audio and web --- and funded by contracts, freelance, and support of the
-Pont\~{a}o N\'{o}s Digitais\footnote{\url{http://nosdigitais.teia.org.br}}. 
-Table~\ref{tabela:criados} has a list of \emph{new} free software applications created by
-``Lab Macambira'' since July 2011.
+After the initial training period of 1 month, the initiated ``Macambiras''
+worked during 6 additional months on a large range of free software projects,
+divided into work groups --- each work group focusing on a specific theme like
+video, audio and web --- and funded by contracts, freelance, and support of the
+Pont\~{a}o N\'{o}s Digitais\footnote{\url{http://nosdigitais.teia.org.br}}.
+Table~\ref{tabela:criados} has a list of \emph{new} free software applications
+created by ``Lab Macambira'' since July 2011.
 
 \begin{table}
     \caption{Software projects created by Lab Macambira since July
@@ -416,9 +418,7 @@ Table~\ref{tabela:criados} has a list of \emph{new} free software applications c
       programming languages or frameworks). It is
       interesting to note the heterogeneity of projects and their areas
       of application.}
-
-    \footnotesize{
-    \begin{tabular}{|l|p{5cm}|l|}
+    \footnotesize{\begin{tabular}{|l|p{5cm}|l|}
         \hline
         Application & Description & Technologies involved \\ 
         \hline \hline
@@ -477,8 +477,8 @@ Table~\ref{tabela:criados} has a list of \emph{new} free software applications c
     \label{tabela:criados}
 \end{table}
 
-As of this writing the `Lab Macambira' unites 15 software developers, and 
-key 2011-initiated developers continue to work voluntarily in the project.
+As of this writing, `Lab Macambira' unites over 15 software developers, and 
+key developers trained in 2011 continue to work voluntarily in the project.
 
 \section{Conclusions}
 \label{conclusions}
