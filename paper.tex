@@ -62,7 +62,7 @@ attributed to a variety of factors such as a larger labor pool, natural
 globalization of software companies and foundations or even the premise of
 cheaper cost of production~\cite{komi2005}.
 
-Despite the advantages of GSD, we have noticed how
+Despite the advantages of GSD, it is known how
 difficult it is to coordinate and fund free software on a significantly larger scale
 than currently practiced, as series of qualitatively new situations arise. Distributed
 teams are very heterogeneous containing not only volunteers and very experienced
@@ -80,10 +80,11 @@ open'', which can be un-productive. Software developers
 like to code, to be productive, to have their hands on their project,
 to do what they are best at. They dislike to forcibly stop for meetings
 or to do other bureaucratic activities such as writing lengthy reports to
-justify their funding.\cite{Thompson:Wired:2012}
+justify their funding~\cite{Thompson:Wired:2012}.
 %\todo{ler mais. cacm, etc}
 
-In this paper we propose the AA methodology and an associated software system
+To address these matters is the purpose of
+AA methodology and an associated software system
 for coordinating distributed team work, tackling the disadvantages
 of GSD. Team members take on an egalitarian role, and stay
 voluntarily \textit{logged} in the system for part of their time
@@ -91,7 +92,7 @@ voluntarily \textit{logged} in the system for part of their time
 sentence or \emph{microlog} --- similar to a `tweet' from Twitter --- as the
 status of their activity. Logging is carried out using a series of
 easy UI alternatives: unix shell
-commands, native GUI or web page, conventional social network posts, or chat messages to a log bot
+commands, native GUI or Web page, conventional social network posts, or chat messages to a log bot
 listening to IRC, GTalk, G+, and others.  These ``microblog sentences'' are
 publicly aggregated and validated by other team members. Through AA, the
 community has a
@@ -109,12 +110,12 @@ unproductive meetings.
 
 A brief overview of current work on GSD methodologies related to AA is presented
 in Section~\ref{related-work}. In Section~\ref{aa-methodology} the most relevant
-characteristics of the AA methodology are outlined. In the same section, we
-report an actual use case of AA for coordinating a team of 9 paid developers 
+characteristics of the AA methodology are outlined. In the same section, it
+is reported an actual use case of AA for coordinating a team of 9 paid developers 
 % nao era mais de 9?
 during the second half of 2011, as well as a broader use case of AA from 2012 to
-the present time.  In Section~\ref{conclusions} we summarize the overall conclusions
-and indicate future possibilities for the practical use of AA in other types of
+the present time.  In Section~\ref{conclusions}, there are overall conclusions
+and indicative of future possibilities for the practical use of AA in other types of
 teams of software developers or organizations working on non-software distributed
 activities.
 
@@ -212,7 +213,7 @@ face-to-face meetings and is based on a different place each time.
 
 Some of the strategies for GSD mentioned on the previous section are based on
 complex methodologies and many were built for a specific company or software
-center. We propose an alternative methodology based on a simple idea: small
+center. This section describes an alternative methodology based on a simple idea: small
 working sessions logged by a computational tool. Figure~\ref{fig:mm} summarizes
 this methodology.
 
@@ -248,13 +249,12 @@ offline micrologging and periodical alerting.
 Developers optionally record a brief \emph{video screencast} at the end of the
 session summarizing what has been done, explaining his goals and challenges
 in his own words and showing his most important results. This is very similar to
-the video logging system in the movie Avatar, although it is clear from our
-July 2011 git repositories and online wiki that we have used this powerful
-concept in AA prior to the release of Avatar. Moreover, screencasting differs
+the video logging system in the movie Avatar, although it is clear, from
+July 2011 git repositories and online wiki, that we have used this powerful concept in AA independently of any major mass midia incident. Moreover, screencasting differs
 from general videologging in that it typically captures actual workflow on the
 computer screen. Screencasting, combined with the textual log of the AA Session,
 renders the final report more understandable for the individual developer
-himself or to other people searching for information about his production.
+himself and to other people searching for information about his production.
 % TODO: talvez figura com diagraminha explicando uma semana tipica,
 % e cada sessao AA com um bloco dividido nos 15 min, e no inicio do bloco tb
 % podemos listar no diagrama ``developer reads felow AA logs and lists his
@@ -308,7 +308,7 @@ developer with an URL to a validation interface.
 
 Peer validation also helps in making decentralized collaboration more cohesive
 by encouraging members to be minimally aware of peer activities, even when these
-are not immediately useful for accomplishing the task at hand.  We have observed
+are not immediately useful for accomplishing the task at hand.  Authors have observed
 that decentralized teamwork can get so efficient at actual production that 
 the team gets short-sighted in terms of coordination: non-communicating
 subteams can get formed in practice if care is not taken, causing a
@@ -323,8 +323,8 @@ fragmentation and is an essential mechanism of decentralized team autoregulation
 \label{results}
 
 Easy and effective GSD team management is the main purpose of the AA
-methodology. We applied the proposed methodology to a group of 9 developers in
-July of 2011, 3 of which are coauthors of the present work, on what we called Lab
+methodology. The proposed methodology was applyed to a group of 9 developers in
+July of 2011, 3 of which are coauthors of the present work, on what was named Lab
 Macambira.\footnote{LabMacambira.sf.net: \url{http://labmacambira.sf.net}} The
 main objective of the team was to work on an array of strategic free software
 projects in the broad audiovisual and web categories, contributing directly to
@@ -523,7 +523,7 @@ text sentence as a continuous log feed, the proposed methodology avoids
 disturbing the flow of developers which are heavily concentrated on programming:
 developers just have to type a few words and go back to coding.
 
-We have analyzed data and gained practical experience on
+Authors have analyzed data and gained practical experience on
 the use of AA to auto-regulate the work of Lab Macambira, a group of free
 software developers from Brazil. Since July of 2011 the group has contributed
 and created new free and open source software for a vast number of additional applications.
@@ -548,11 +548,12 @@ psychological studies focusing on further backing specific claims made in this
 paper, in order to refine the methodology, its mechanisms and parameters.
 
 \section*{Acknowledgments}
-The authors acknowledge the financial support from Pontao Nos Digitais, and
+Authors acknowledge the financial support from Pontao Nos Digitais, and
 Ricardo Fabbri acknowledges support from FAPERJ/Brazil 111.852/2012.
-We would also like to thank AA: the present research and even this
+Authors also thank AA: the present research and even this
 manuscript was written using AA. The complete log is on-line at
-\url{www.pulapirata.com/skills/aa}.
+\url{www.pulapirata.com/skills/aa}. Finally, authors are also grateful to IFSC/USP, IPRJ/UERJ, IFT/UNESP and all AA users and collaborators, especially those who coded AA hacks for use through shell and bot, and those who coded different Web interfaces in use.
+
 
 \nocite{last2003}
 \nocite{german2003}
