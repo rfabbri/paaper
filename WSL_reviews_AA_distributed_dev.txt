@@ -1,3 +1,41 @@
+For RESI, editor asked:
+
+
+
+
+As a reviewer requested, it would be interesting if the authors could
+provide some comparisons between the use of AA and the approaches used by
+some large FOSS projects (see reviewer's comments for details).  This could
+be done in the discussion section. Also, it has been mentioned that the
+paper needs an English revision. Please do a final review on grammar and
+clarity issues. Furthermore, please provide "evidence that these projects
+have used the AA methodology", and expand the list of references as it is
+rather short. A few examples of papers that could be considered are
+http://dx.doi.org/10.1016/j.jsis.2012.07.004,
+http://revistas.facecla.com.br/index.php/reinfo/article/view/751/pdf_9,
+http://misq.org/value-cocreation-and-wealth-spillover-in-open-innovation-alliances.html,
+Kevin Crowston and James Howinson's work,  and Siobhan O'Mahony's as well.
+
+
+
+
+Suggestion: Finally, consider changing the tile as reviewer 2 requested. As of now, it
+seems like a grammar mistake. I recommend "The Algoritmic Auto-regulation
+Software Development Methodology".
+
+  Response: Done, but removed the hyphen in "Auto-regulation"
+  http://www.merriam-webster.com/medical/autoregulation
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
 REVIEW0:
 
 The paper introduces a methodology to be applied to GSD and distributed software development environments.

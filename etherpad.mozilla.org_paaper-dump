@@ -1,0 +1,93 @@
+-> fontes, pdf e apontamentos dos revisores, tudo no repo do sf:
+    http://labmacambira.git.sourceforge.net/git/gitweb.cgi?p=labmacambira/paaper
+
+-> reviews RESI sao mesmas que WSL
+
+-> so tem request do editor mais o que sobrou da outra vez - abaixo da linha _____
+
+Sugestoes do editor
+
+As a reviewer requested, it would be interesting if the authors could
+provide some comparisons between the use of AA and the approaches used by
+some large FOSS projects (see reviewer's comments for details).  This could
+be done in the discussion section. 
+
+- Just cite how some other team works 
+-- I know about Blender, Scilab, Pd, VXL.. 
+-- automata: mozilla (write anything here)
+-- hybrid: write anything here about some other floss you've contributed to
+
+
+
+Do a final review on grammar and
+clarity issues. 
+
+- easy. PRIORITY 0
+
+Provide "evidence that these projects
+have used the AA methodology", 
+
+- the AA logs themselves plus commits. 
+- How to cite this in the text?
+
+Expand the list of references as it is
+rather short. A few examples of papers that could be considered are
+http://dx.doi.org/10.1016/j.jsis.2012.07.004,
+http://revistas.facecla.com.br/index.php/reinfo/article/view/751/pdf_9,
+http://misq.org/value-cocreation-and-wealth-spillover-in-open-innovation-alliances.html,
+Kevin Crowston and James Howinson's work,  and Siobhan O'Mahony's as well.
+
+- Rather easy PRIORITY 1
+- http://scholar.google.com.br/scholar?q=Microblogging+in+Global+Software+Development&btnG=&hl=en&as_sdt=0%2C5
+
+Finally, consider changing the tile as reviewer 2 requested. As of now, it
+seems like a grammar mistake. I recommend "The Algoritmic Auto-regulation
+Software Development Methodology".
+
+- EASY
+
+
+
+
+
+
+_________________________________________________________________
+
+correções ainda por fazer: (FEITAS!!)
+substituir todas as ocorrências de auto-regulaiton pela palavra sem o hífen
+mudar IFSC para: São Carlos Institute of Physics
+mudar email do renato para fabbri@usp.br
+ponto final nas notas de rodapé?
+
+
+melhorias sugeridas pelos revisores da WSL:
+Revisor 0
+avaliacao da ferramenta (r0 entende que eh o que estah faltando)
+modificar titulo
+esclarecer pq soh 2h --> por que eh tempo minimo de atencao (?)
+algum argumento comportamental? cognitivo?
+como a revisão é feita (recebida pelos parceiros)
+muito parecido com peer-review
+não entende o que as tabelas 1 e 2 adicionam ao artigo
+atestam a produção de um time (LM) usando o AA
+a conclusao é meio repetitiva e pode ser enxugada
+atenção com as notas de rodapé (espaçamento e posicionamento)
+melhora do ingles
+Revisor 1
+reforço na seção 2 sobre trabalhos relacionados
+comparação entre AA e estratégias usadas em outros projs de FOSS.
+AA ensina a codar mais rápido?
+Os membros do time conseguem identificar problemas no codigo pelas revisoes?
+AA impõe overhead significativo pela criação e revisão dos logs?
+Melhoria do inglês
+Inserção das referências
+GCD -> GSD
+Revisor 2
+Como AA pode ajudar a comunidade que já tem bug tracker+lista de emails+IRC+controle de versao
+Como AA interfere na tabela 1 (e.g. qualidade das contribs)
+Não há evidência da interferência do AA na Tabela 2
+Bibliografia curta c 9 itens e outdated.
+
+texto para Discussao, aprendizagem de trabalho assincrono com grupo diversificado:
+http://piratepad.net/paaperlearning
+

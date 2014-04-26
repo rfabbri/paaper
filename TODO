@@ -1,9 +1,14 @@
-- TODO: pAAinel, hybrid's summaries
+- TODO: pAAinel
 - cite pomarolo
 - look into todo tags
 - various cool things at http://www.async.com.br/~kiko/papers.html
-
 - survey of social networks and software engineering, nov 2013:
+
+- pads
+https://etherpad.mozilla.org/paaper
+http://piratepad.net/paaperlearning
+
+
 
 Organizational social structures for software engineering
 http://dl.acm.org/citation.cfm?id=2522971
@@ -16,31 +21,20 @@ opinion, more interesting than the inventions themselves"
 -- Gottfried Wilhelm Leibnitz (from Koenderink's solid shape)
 
 
+Renato 20/dez/13
 
-"Central to our feelings of awareness is the sensation of the progression of
-time... As we consciously perceive time to pass, the most immediate part of that
-vast and seemingly undetermined future continuously becomes realized as
-actuality, and thus makes its entry into the fixed past."
--- Roger Penrose in The Emperor's New Mind
-
-Which can be adapted to AA as
-
-"Central to our feelings of awareness is the sensation of the progression of
-time... (aa logging increases this sensation and thus awarenes, an awareness
-which equals more productivity, of the creative type, at least) As we
-consciously perceive time to pass (through AA sessions),
-the most immediate part of that vast and seemingly undetermined future
-continuously becomes realized as actuality (AA logs), and thus makes its entry into the
-fixed (highly indexable and searchable) past." 
--- Modified Roger Penrose in The Emperor's New Mind
+Nesta revisão, parece valer a pena citar o surgimento em abundância
+de iniciativas livres, que prezam pela transparência e igualdade.
+http://open.bufferapp.com/introducing-open-salaries-at-buffer-including-our-transparent-formula-and-all-individual-salaries/
+e
+http://softwarelivre.org/colivre/blog/colivre-em-ritmo-de-retrospectiva-2013#.UrSqAL2Tzd4.facebook
+só para citar os 2 últimos links que me chegaram.
 
 
-- weekly summaries (like my powerpoint), both automatically and man-made and
-  present in sync manner upon occasion
-- stats 
--- where did your time go?
--- tags simulate desktop with multiple clocks in randy's lecture
-- cite the time log (as in randy pausch's lecture)
+Renato may'13
 
-- painel do renatao
-- search timer apps
+estudando GSD (global software development):
+http://www.ibm.com/developerworks/rational/library/edge/08/jan08/fryer_gothe/
+e
+http://research.microsoft.com/apps/pubs/default.aspx?id=76911
+e as referencias que estao no artigo (eg. da GNOME).
