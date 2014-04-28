@@ -3,8 +3,8 @@
 - look into todo tags
 - various cool things at http://www.async.com.br/~kiko/papers.html
 - survey of social networks and software engineering, nov 2013:
-- email was designed to be async (raundy pausch mentioned it). Find a ref and
-  cite.
+- email was designed to be async (raundy pausch mentioned it). Find a ref and cite.
+- http://en.wikipedia.org/wiki/Self-regulated_learning
 
 - pads
 https://etherpad.mozilla.org/paaper
@@ -16,12 +16,9 @@ Organizational social structures for software engineering
 http://dl.acm.org/citation.cfm?id=2522971
 Damian A. Tamburri, Patricia Lago, Hans van Vliet
 
-- nice quote on the greater importance of processes over products:
 
-"Nothing is more important than to see the sources of invention which are, in my
-opinion, more interesting than the inventions themselves"
--- Gottfried Wilhelm Leibnitz (from Koenderink's solid shape)
-
+Self reg learning
+http://en.wikipedia.org/wiki/Self-regulated_learning
 
 Renato 20/dez/13
 
@@ -30,7 +27,6 @@ de iniciativas livres, que prezam pela transparência e igualdade.
 http://open.bufferapp.com/introducing-open-salaries-at-buffer-including-our-transparent-formula-and-all-individual-salaries/
 e
 http://softwarelivre.org/colivre/blog/colivre-em-ritmo-de-retrospectiva-2013#.UrSqAL2Tzd4.facebook
-só para citar os 2 últimos links que me chegaram.
 
 
 Renato may'13
@@ -41,5 +37,9 @@ e
 http://research.microsoft.com/apps/pubs/default.aspx?id=76911
 e as referencias que estao no artigo (eg. da GNOME).
 
+- cite that we had a salary formula available at the website
 
 
+AFTERWARDS
+- send out an email to everyone we cited, displaying the paper.
+- merge pad in here
