@@ -14,3 +14,9 @@ print msgsT.count("firefox")
 print msgsT.count("scilab")
 print msgsT.count("aa")
 print msgsT.count("evince")
+
+mm=[i[0] for i in msgs_]
+mm_=[i for i in mm if ("shout" in i) or ("alert" in i)]
+print (((len(mm_)*15)/60.)/4.)/360.
+# considerados dias de semana, 4h por dia:
+print (((len(mm_)*15)/60.)/4.)/(360.*(5/7.))
