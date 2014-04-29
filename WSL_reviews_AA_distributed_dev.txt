@@ -1,3 +1,66 @@
+RESPONSE
+
+
+Dear Carlos,
+
+We have addressed the suggested modifications in the attached manuscript,
+as described below. We thank the reviewers for their comments, which 
+helped bring the quality of the manuscript to another level.
+
+Suggestion: As a reviewer requested, it would be interesting if the authors could
+provide some comparisons between the use of AA and the approaches used by
+some large FOSS projects (see reviewer's comments for details).  This could
+be done in the discussion section. 
+
+  Response: We have addressed this point across the entire paper. We have
+  improved overall textual clarity regarding the place of AA in the
+  context of existing FOSS practice. In the previous work section, we included a
+  review of the practices of a few large FOSS projects, mentioning drawbacks
+  and how AA fits in. We have improved the description of AA in section 2 so
+  people can see this more easily.
+
+Suggestion:
+Also, it has been mentioned that the
+paper needs an English revision. Please do a final review on grammar and
+clarity issues.
+
+  Response: We have performed a careful and thorough revision to this
+
+Suggestion: Provide "evidence that these projects have used the AA methodology"
+  
+  Response: We modified the text to include references to this.
+
+Suggestion: Expand the list of references as it is
+rather short. A few examples of papers that could be considered are
+http://dx.doi.org/10.1016/j.jsis.2012.07.004,
+http://revistas.facecla.com.br/index.php/reinfo/article/view/751/pdf_9,
+http://misq.org/value-cocreation-and-wealth-spillover-in-open-innovation-alliances.html,
+Kevin Crowston and James Howinson's work,  and Siobhan O'Mahony's as well.
+
+  Response: we have expanded the references section in view of 
+  these references. 
+
+Suggestion: Finally, consider changing the tile as reviewer 2 requested. As of now, it
+seems like a grammar mistake. I recommend "The Algoritmic Auto-regulation
+Software Development Methodology".
+
+  Response: Done, but removed the hyphen in "Auto-regulation"
+  http://www.merriam-webster.com/medical/autoregulation
+
+
+We have also addressed the remaining suggestions from the reviewers by
+incorporating improvements throughout the text.
+
+
+Best regards,
+
+
+
+
+
+
+
+____________________________________
 For RESI, editor asked:
 
 
